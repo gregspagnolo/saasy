@@ -16,6 +16,8 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 h1,h2,h3 {
 	font-family: 'Roboto', sans-serif;
@@ -29,6 +31,11 @@ h1,h2,h3 {
 
 .navbar {
 	border: none;
+}
+
+.navbar-brand {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 }
 
 .home-callout {
